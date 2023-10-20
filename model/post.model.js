@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const postSchema = mongoose.Schema({
-    titile :{
+    title :{
         type:String,
         require : true,
     },
